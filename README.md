@@ -39,6 +39,7 @@ A comunicação UART é utilizada para enviar mensagens de log e depuração par
 
 ## Funcionalidades Implementadas
 
+ ```
 ✅ Leitura analógica dos eixos X e Y do joystick via ADC.
 ✅ Movimentação proporcional de um quadrado 8x8 no display SSD1306 (Comunicação I2C).
 ✅ Controle de cor e intensidade do LED RGB via PWM, baseado na posição do joystick.
@@ -50,6 +51,10 @@ A comunicação UART é utilizada para enviar mensagens de log e depuração par
 ✅ Exibição de informações de status (Valores ADC, Estados Matrix/Buzzer) no display SSD1306.
 ✅ Envio de mensagens de log e status via interface UART para depuração.
 ✅ Código estruturado em múltiplos módulos para melhor organização e clareza.
+
+```
+
+
 
 ## Requisitos Técnicos Atendidos
 
