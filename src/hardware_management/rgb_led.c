@@ -28,7 +28,7 @@ void rgb_led_init() {
     pwm_init(slice_blue, &config, true);
 
     rgb_led_set(0, 0, 0);
-    uart_log("Led RGB Inicializado!");
+    uart_log("Led RGB Inicializado!\n");
 }
 
 /**

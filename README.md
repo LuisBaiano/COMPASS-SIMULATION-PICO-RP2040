@@ -1,4 +1,4 @@
-# Projeto Integrador BitDogLab - Bussola com Rosa dos Ventos
+# Projeto Integrador BitDogLab - Orientação com Rosa dos Ventos (Bussola Simulada)
 
 ## Índice
 
@@ -80,8 +80,8 @@ A comunicação UART é utilizada para enviar mensagens de log e depuração par
 
 1. **Clonar o Repositório:**
    ```bash
-   git clone <URL_DO_SEU_REPOSITORIO>
-   cd <NOME_DA_PASTA_DO_PROJETO>
+   git clone https://github.com/LuisBaiano/COMPASS-SIMULATION-PICO-RP2040
+   cd COMPASS-SIMULATION-PICO-RP2040
    ```
 2. **Configurar o Projeto:** Abra a pasta do projeto no VS Code. Certifique-se que o `CMakeLists.txt` está correto e que o SDK do Pico está acessível.
 3. **Compilar (Build):** Utilize a função de build do VS Code (geralmente Ctrl+Shift+B ou o botão "Build" na barra de status do CMake Tools).
@@ -89,8 +89,10 @@ A comunicação UART é utilizada para enviar mensagens de log e depuração par
    * Coloque a BitDogLab em modo BOOTSEL (pressione o botão BOOTSEL ao conectar o cabo USB).
    * Arraste o arquivo `.uf2` gerado (geralmente na pasta `build`) para o drive RPI-RP2 que aparece no seu computador.
    * A placa reiniciará automaticamente.
-5. **Visualizar Logs:** Abra o terminal serial, conecte à porta COM correspondente à sua BitDogLab com a taxa de **115200 baud**. Você deverá ver as mensagens de inicialização e os logs de eventos.
-6. **Testar:** Interaja com o joystick e os botões para verificar todas as funcionalidades descritas.
+5. ou clone, execute dentro da pasta baixada
+   `mkdir build && cd build cmake .. make`
+6. **Visualizar Logs:** Abra o terminal serial, conecte à porta COM correspondente à sua BitDogLab com a taxa de **115200 baud**. Você deverá ver as mensagens de inicialização e os logs de eventos.
+7. **Testar:** Interaja com o joystick e os botões para verificar todas as funcionalidades descritas.
 
 ## Estrutura do Código
 
@@ -129,9 +131,7 @@ A comunicação UART é utilizada para enviar mensagens de log e depuração par
 * [Documentação do RP2040](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
 * [Raspberry Pi Pico SDK](https://github.com/raspberrypi/pico-sdk)
 * [Documentação Pico C/C++ SDK](https://raspberrypi.github.io/pico-sdk-doxygen/)
-* [BitDogLab - Informações da Placa](https://www.bitdoglab.com/) (Link genérico, adicione link específico se disponível)
 
 ## Demonstrativo em Vídeo
 
-**[📹 Assista a Demostração](https://drive.google.com/file/d/1ZBec6HQRQYw-virNI-GePUEuZMBT6z-b/view?usp=sharing)**
-*(Substitua este link pelo link real do seu vídeo no YouTube ou Google Drive)*
+**[📹 Assista a Demostração](https://drive.google.com/drive/folders/1i0KbwWVsC20VesE9B056UJKOxdHMK4rW?usp=sharing)**

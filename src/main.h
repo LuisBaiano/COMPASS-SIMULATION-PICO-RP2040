@@ -44,7 +44,7 @@
 #define DISPLAY_HEIGHT  64
 
 #define UART_ID         uart0
-#define UART_BAUD_RATE  115200
+#define UART_BAUD_RATE  9600
 #define UART_TX_PIN     0
 #define UART_RX_PIN     1
 
@@ -53,7 +53,7 @@
 #define LED_PWM_WRAP     255
 #define ADC_MAX_VALUE    4095
 #define ADC_CENTER       (ADC_MAX_VALUE / 2)
-#define ADC_DEADZONE     180
+#define ADC_DEADZONE     300
 #define SQUARE_SIZE      8
 
 #endif 

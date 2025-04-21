@@ -94,7 +94,7 @@ void buzzer_init() {
     gpio_set_dir(BUZZER_PIN2, GPIO_OUT);
     gpio_put(BUZZER_PIN2, 0);
 
-    uart_log("Buzzers inicializados!");
+    uart_log("Buzzers inicializados!\n");
     buzzer_play_success();
 }
 

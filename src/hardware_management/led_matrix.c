@@ -17,7 +17,7 @@ void led_matrix_init() {
     uint offset = pio_add_program(pio, &led_matrix_program);
     led_matrix_program_init(pio, sm, offset, MATRIX_WS2812_PIN);
     led_matrix_clear();
-    uart_log("Matriz de Led inicializada!");
+    uart_log("Matriz de Led inicializada!\n");
 }
 
 /**
