@@ -9,22 +9,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # Initialise pico_sdk from installed location
 # (note this can come from environment, CMake cache etc)
 
-# == DO NOT EDIT THE FOLLOWING LINES for the Raspberry Pi Pico VS Code Extension to work ==
-# (Copied from your template)
-if(WIN32)
-    set(USERHOME $ENV{USERPROFILE})
-else()
-    set(USERHOME $ENV{HOME})
-endif()
-set(sdkVersion 2.1.0) # Make sure this matches your installed SDK version if needed
-set(toolchainVersion 13_3_Rel1) # Make sure this matches your installed toolchain version if needed
-set(picotoolVersion 2.1.0) # Make sure this matches your installed picotool version if needed
-set(picoVscode ${USERHOME}/.pico-sdk/cmake/pico-vscode.cmake)
-if (EXISTS ${picoVscode})
-    include(${picoVscode})
-endif()
-# ====================================================================================
-
 # Set the board type (use 'pico', 'pico_w', or your specific custom board if defined)
 # Using 'pico' as a general RP2040 base if 'bitdoglab' isn't a defined board.
 set(PICO_BOARD pico_w CACHE STRING "Board type")
