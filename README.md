@@ -96,8 +96,8 @@ A comunicação UART é utilizada para enviar mensagens de log e depuração par
 
 ## Estrutura do Código
 
-**📂 projeto_bitdoglab/**
-├── src/
+```
+📂 ├── src/
 │ ├── hardware_config.h # Definições de pinos e constantes globais
 │ ├── uart_logger.c # Implementação do logger UART
 │ ├── uart_logger.h # Interface do logger UART
@@ -125,6 +125,8 @@ A comunicação UART é utilizada para enviar mensagens de log e depuração par
 ├── CMakeLists.txt # Arquivo de configuração do CMake
 ├── pico_sdk_import.cmake # Importação do SDK (Padrão Pico)
 └── main.c # Ponto de entrada e loop principal da aplicação
+```
+
 
 ## Referências
 
